@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class AudioManager : MonoBehaviour, IaudioManager
 {
-        public static AudioManager Instance { get; private set; }
+    public static AudioManager Instance { get; private set; }
 
     [SerializeField] private List<SoundData> sounds;
 

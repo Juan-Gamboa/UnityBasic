@@ -477,8 +477,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   sounds:
-  - {fileID: 11400000, guid: f466bda4a35ea9444ac214e66922c927, type: 2}
-  - {fileID: 11400000, guid: 1c3c3fc09cc8ebf49a942645e8f05545, type: 2}
+  - {fileID: 11400000, guid: 7b1112b2e85fb8b4babc97adbff5a01a, type: 2}
 --- !u!4 &745566003
 Transform:
   m_ObjectHideFlags: 0
@@ -1282,7 +1281,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PickableObject
   isPickable: 1
-  sonido: {fileID: 34684013}
 --- !u!1 &1445757200
 GameObject:
   m_ObjectHideFlags: 0

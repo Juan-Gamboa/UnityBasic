@@ -6,12 +6,12 @@ public class PickableObject : MonoBehaviour
 {
 
     public bool isPickable = true;
-    public GameObject sonido;
+   
 
     private void OnTriggerEnter(Collider other){
         if(other.tag == "PlayerInteractionZone"){
             other.GetComponentInParent<PickUpObject>().ObjectToPickUp = this.gameObject;
-            AudioManager.Instance.Play3D("Aldeano3D",sonido.transform.position);
+            AudioManager.Instance.Play2D("Detectar");
         }
     }
     private void OnTriggerExit(Collider other){
