@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d11128fc34faf5543a7e8bdae2d985d4, type: 3}
+  m_Name: Entro
+  m_EditorClassIdentifier: Assembly-CSharp::SoundData
+  id: Entro
+  clip: {fileID: 8300000, guid: 41281e89c2262454ab8452e53cfffca9, type: 3}
+  volume: 10
+  loop: 0
+  spatialBlend: 0
