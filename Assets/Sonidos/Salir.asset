@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
   id: Salir
   clip: {fileID: 8300000, guid: dfc511c535b047747aac5192290475f7, type: 3}
-  volume: 100
+  volume: 1
   loop: 0
-  spatialBlend: 0
+  spatialBlend: 1

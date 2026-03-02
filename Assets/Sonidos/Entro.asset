@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundData
   id: Entro
   clip: {fileID: 8300000, guid: 41281e89c2262454ab8452e53cfffca9, type: 3}
-  volume: 10
+  volume: 1
   loop: 0
-  spatialBlend: 0
+  spatialBlend: 1
